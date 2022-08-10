@@ -11,19 +11,20 @@ comments: true
 
 **Spring Boot là gì?**
 
+
 Là một phần cực kỳ quan trọng của Spring framework, do vậy trước khi tìm hiểu Spring Boot là gì, chúng ta cần có kiến thức cơ bản về Spring framework.
 
 **Khái niệm về Spring Boot là gì**
 
 Từ những thông tin ở trên, ta có thể khẳng định Spring Boot chính là một Java framework siêu to và khổng lồ và có nhiều khả năng hữu ích vì nó có thể giúp lập trình viên giải quyết rất nhiều vấn đề. So với framework Spring thông thường, Spring Boot tỏ ra những lợi thế vượt trội. Khi sử dụng Spring Boot, rất nhiều thứ được cải tiến hỗ trợ lập trình viên như:
 
-  -Auto config: tự động cấu hình thay lập trình viên, bạn chỉ cần viết code và tiến hành chạy hệ thống là được.
-  -Dựa trên các Annotation để tạo lập các bean thay vì XML.
-  -Server Tomcat có thể được nhúng ngay trong file JAR build ra và có thể chạy ở bất kì đâu mà java chạy được.
+* Auto config: tự động cấu hình thay lập trình viên, bạn chỉ cần viết code và tiến hành chạy hệ thống là được.
+* Dựa trên các Annotation để tạo lập các bean thay vì XML.
+* Server Tomcat có thể được nhúng ngay trong file JAR build ra và có thể chạy ở bất kì đâu mà java chạy được.
 Khi sử dụng Spring Boot, lập trình viên chỉ cần:
-  -Sử dụng Spring Initializr: nhập các thông tin của dự án (project), chọn thư viện (Library) rồi tải code về máy.
-  -Mở mã nguồn (source code) và bắt đầu viết code.
-  -Có thể chạy ngay trong IDE, hoặc build thành file JAR mà không cần cấu hình config cho server nữa.
+* Sử dụng Spring Initializr: nhập các thông tin của dự án (project), chọn thư viện (Library) rồi tải code về máy.
+* Mở mã nguồn (source code) và bắt đầu viết code.
+* Có thể chạy ngay trong IDE, hoặc build thành file JAR mà không cần cấu hình config cho server nữa.
 
 ![done](/assets/img/Spring-Boot1.png)
     Spring Boot chính là một Java framework siêu to và khổng lồ và có nhiều khả năng hữu ích
@@ -43,13 +44,13 @@ Do đó, bạn có nhiều thời gian hơn để tập trung vào sự logic c�
 Những tính năng nổi bật của Spring Boot mà bạn không thể bỏ qua như:
 
 Phát triển web một cách đơn giản và nhanh chóng.
-  -Config an toàn
-  -Có thể hỗ trợ YAML
-  -Có tính quản trị cao
-  -Dễ dàng ứng dụng Spring và các sự kiện.
-  -Có thể cấu hình ở bên ngoài và tạo ra những tệp thuộc tính.
-  -Tính bảo mật cao.
-  -Ghi log
+* Config an toàn
+* Có thể hỗ trợ YAML
+* Có tính quản trị cao
+* Dễ dàng ứng dụng Spring và các sự kiện.
+* Có thể cấu hình ở bên ngoài và tạo ra những tệp thuộc tính.
+* Tính bảo mật cao.
+* Ghi log
 Với những ưu điểm mà Spring Boot mang lại, nó cũng mang theo rất nhiều đặc điểm ưu việt. Cùng tìm hiểu và tận dụng những chương trình này một cách hiệu quả nhé.
 
 ![done](/assets/img/Spring-Boot3.jpg)
@@ -58,20 +59,20 @@ Với những ưu điểm mà Spring Boot mang lại, nó cũng mang theo rất 
       
 **Đặc điểm nổi bật của Spring Boot**
 
-  -SpringApplication: Đây là class được dùng để khởi chạy ứng dụng từ hàm main(). Vì thế, khi khởi chạy ứng dụng, các lập trình viên chỉ cần gọi method run() là được. 
-  -Externalized Configuration: Spring Boot cho phép người dùng có thể sử dụng cấu hình (config) từ bên ngoài. Chính vì vậy mà mỗi ứng dụng được tạo ra có thể chạy được    trên nhiều môi trường khác nhau. 
-  -Profiles: Dùng để phân chia các loại cấu hình cho các môi trường khác nhau.
-  -Loggin: Sử dụng phục vụ cho toàn bộ chức năng log trong phạm vi nội bộ. Những logging này sẽ được quản lý một cách mặc định.
+* SpringApplication: Đây là class được dùng để khởi chạy ứng dụng từ hàm main(). Vì thế, khi khởi chạy ứng dụng, các lập trình viên chỉ cần gọi method run() là được. 
+* Externalized Configuration: Spring Boot cho phép người dùng có thể sử dụng cấu hình (config) từ bên ngoài. Chính vì vậy mà mỗi ứng dụng được tạo ra có thể chạy được   trên nhiều môi trường khác nhau. 
+* Profiles: Dùng để phân chia các loại cấu hình cho các môi trường khác nhau.
+* Loggin: Sử dụng phục vụ cho toàn bộ chức năng log trong phạm vi nội bộ. Những logging này sẽ được quản lý một cách mặc định.
 Ngoài ra còn rất nhiều các tính năng tương tự khác của Spring Boot như: Developing web Applications, Working with SQL Technologies, Security, Messaging, Caching, Calling rest Services with RestTemplate/WebClient, Sending Email, Validation,…. 
 
 ### Khi học về Spring Boot cần tìm hiểu những gì?
 
 **Java Core**
 Trước khi học về Spring Boot, bạn cần biết về một số kiến thức cần biết của Java
-  -Java cơ bản: hàm, biến, vòng lặp,...
-  -Lập trình hướng đối tượng (OOP)
-  -Các tính năng của Java
-  -Collections API: biết cách sử dụng các collection thông dụng.
+* Java cơ bản: hàm, biến, vòng lặp,...
+* Lập trình hướng đối tượng (OOP)
+* Các tính năng của Java
+* Collections API: biết cách sử dụng các collection thông dụng.
 Ngoài ra, bạn có thể tìm hiểu thêm về Stream API, Asynchronous, Multi threading, File IO.
 
 ![done](/assets/img/Spring-Boot4.png)
@@ -85,13 +86,13 @@ Cách học Spring Boot đúng đắn nhất chính là học thực hành, làm
 **JPA/MongoDB/SQL**
 
 Để tạo nên một chương trình, ứng dụng không thể thiếu được Database, do vậy các bạn cần tìm hiểu về:
-  -Cách cấu hình database trong Spring Boot
-  -Cấu trúc lớp và interface của JPA
-  -Tìm hiểu các thao tác cơ bản CRUD.
-  -Query creation
-  -Thực hiện các câu query phức tạp bằng MongoTemplate.
-  -Sắp xếp và phân trang data query được.
-  -Thực hiện aggregation
+* Cách cấu hình database trong Spring Boot
+* Cấu trúc lớp và interface của JPA
+* Tìm hiểu các thao tác cơ bản CRUD.
+* Query creation
+* Thực hiện các câu query phức tạp bằng MongoTemplate.
+* Sắp xếp và phân trang data query được.
+* Thực hiện aggregation
   
 **Template engine**
 
@@ -100,12 +101,12 @@ Template engine đảm nhiệm xử lý phần View trong ứng dụng MVC. Tron
 **Các Tool khác**
 
 Ngoài ra, trong một dự án Spring Boot còn sử dụng các Tool khác các bạn có thể tìm hiểu về cấu hình và cách sử dụng để nâng cao hiệu suất viết code như:
-  -Cấu hình và sử dụng Swagger
-  -Thiết lập Logger cho project
-  -Lombok - viết code Java ngắn
-  -Cấu hình Spring Actuator
-  -Cấu hình Firebase
-  -Cấu hình Spring Boot devtools
+* Cấu hình và sử dụng Swagger
+* Thiết lập Logger cho project
+* Lombok - viết code Java ngắn
+* Cấu hình Spring Actuator
+* Cấu hình Firebase
+* Cấu hình Spring Boot devtools
 
 **Tổng kết**
 
