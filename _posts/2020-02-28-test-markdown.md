@@ -25,7 +25,7 @@ Khi sử dụng Spring Boot, lập trình viên chỉ cần:
   -Mở mã nguồn (source code) và bắt đầu viết code.
   -Có thể chạy ngay trong IDE, hoặc build thành file JAR mà không cần cấu hình config cho server nữa.
 
-![done](/assets/img/Spring-Boot1.jpg)
+![done](/assets/img/Spring-Boot1.png)
     Spring Boot chính là một Java framework siêu to và khổng lồ và có nhiều khả năng hữu ích
 
 **Tại sao bạn nên học Spring Boot?**
@@ -74,7 +74,7 @@ Trước khi học về Spring Boot, bạn cần biết về một số kiến t
   -Collections API: biết cách sử dụng các collection thông dụng.
 Ngoài ra, bạn có thể tìm hiểu thêm về Stream API, Asynchronous, Multi threading, File IO.
 
-![done](/assets/img/Spring-Boot4.jpg)
+![done](/assets/img/Spring-Boot4.png)
 
 **Package manager**
 Package manager được cài thêm để quản lý các thư viện khi code dự án Spring Boot. Bạn nên tìm hiểu cách dùng Maven và Gradle cơ bản.Nếu bạn là người mới bắt đầu không nên tìm hiểu quá sâu, chỉ cần biết cách cài đặt, xóa thư viện, chỉnh sửa thông tin của project, các build-in tasks là được. Sau này khi sử dụng nhiều thì bạn tự khắc quen thôi.
