@@ -6,7 +6,8 @@ comments: true
 ---
 
 Đối với những người theo đuổi công nghệ thông tin chắc hẳn đã nghe đến Spring, đây là một framework nắm vai trò quan trọng trong phát triển phần mềm, tuy nhiên chúng vẫn chứa đựng những nhược điểm nhất định. Chính vì lý do này, Spring Boot đã ra đời nhằm cải thiện những nhược điểm này và hứa hẹn mang đến nhiều những sản phẩm phần mềm hoàn hảo trong tương lai. Vậy Spring Boot là gì mà có thể đem lại nhiều giá trị tuyệt vời đến như vậy? Hãy cùng chúng tôi khám phá chi tiết về thuật ngữ này tại bài viết bên dưới nhé!
-(/assets/content_image/Spring-Boot.jpg)
+
+![done](/assets/img/Spring-Boot.jpg)
 
 **Spring Boot là gì?**
 
@@ -24,7 +25,7 @@ Khi sử dụng Spring Boot, lập trình viên chỉ cần:
   -Mở mã nguồn (source code) và bắt đầu viết code.
   -Có thể chạy ngay trong IDE, hoặc build thành file JAR mà không cần cấu hình config cho server nữa.
 
-![done](/assets/content_image/Spring-Boot1.jpg)
+![done](/assets/img/Spring-Boot1.jpg)
     Spring Boot chính là một Java framework siêu to và khổng lồ và có nhiều khả năng hữu ích
 
 **Tại sao bạn nên học Spring Boot?**
@@ -51,7 +52,7 @@ Phát triển web một cách đơn giản và nhanh chóng.
   -Ghi log
 Với những ưu điểm mà Spring Boot mang lại, nó cũng mang theo rất nhiều đặc điểm ưu việt. Cùng tìm hiểu và tận dụng những chương trình này một cách hiệu quả nhé.
 
-![done](/assets/content_image/Spring-Boot3.jpg)
+![done](/assets/img/Spring-Boot3.jpg)
 
       Spring Boot có tính bảo mật cao
       
@@ -73,7 +74,7 @@ Trước khi học về Spring Boot, bạn cần biết về một số kiến t
   -Collections API: biết cách sử dụng các collection thông dụng.
 Ngoài ra, bạn có thể tìm hiểu thêm về Stream API, Asynchronous, Multi threading, File IO.
 
-![done](/assets/content_image/Spring-Boot4.jpg)
+![done](/assets/img/Spring-Boot4.jpg)
 
 **Package manager**
 Package manager được cài thêm để quản lý các thư viện khi code dự án Spring Boot. Bạn nên tìm hiểu cách dùng Maven và Gradle cơ bản.Nếu bạn là người mới bắt đầu không nên tìm hiểu quá sâu, chỉ cần biết cách cài đặt, xóa thư viện, chỉnh sửa thông tin của project, các build-in tasks là được. Sau này khi sử dụng nhiều thì bạn tự khắc quen thôi.
