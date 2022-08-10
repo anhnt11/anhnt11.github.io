@@ -6,7 +6,7 @@ comments: true
 ---
 
 Đối với những người theo đuổi công nghệ thông tin chắc hẳn đã nghe đến Spring, đây là một framework nắm vai trò quan trọng trong phát triển phần mềm, tuy nhiên chúng vẫn chứa đựng những nhược điểm nhất định. Chính vì lý do này, Spring Boot đã ra đời nhằm cải thiện những nhược điểm này và hứa hẹn mang đến nhiều những sản phẩm phần mềm hoàn hảo trong tương lai. Vậy Spring Boot là gì mà có thể đem lại nhiều giá trị tuyệt vời đến như vậy? Hãy cùng chúng tôi khám phá chi tiết về thuật ngữ này tại bài viết bên dưới nhé!
-![Crepe]([https://d3hi6wehcrq5by.cloudfront.net/itnavi-blog/2021/04/Spring-Boot-l%C3%A0-g%C3%AC-1.jpg])
+(/assets/content_image/Spring-Boot.jpg)
 
 **Spring Boot là gì?**
 
@@ -23,7 +23,7 @@ Khi sử dụng Spring Boot, lập trình viên chỉ cần:
   -Sử dụng Spring Initializr: nhập các thông tin của dự án (project), chọn thư viện (Library) rồi tải code về máy.
   -Mở mã nguồn (source code) và bắt đầu viết code.
   -Có thể chạy ngay trong IDE, hoặc build thành file JAR mà không cần cấu hình config cho server nữa.
-![Crepe]([https://d3hi6wehcrq5by.cloudfront.net/itnavi-blog/2021/04/Spring-Boot-l%C3%A0-g%C3%AC-2.png])
+(/assets/content_image/Spring-Boot1.jpg)
     Spring Boot chính là một Java framework siêu to và khổng lồ và có nhiều khả năng hữu ích
 
 **Tại sao bạn nên học Spring Boot?**
@@ -50,7 +50,8 @@ Phát triển web một cách đơn giản và nhanh chóng.
   -Ghi log
 Với những ưu điểm mà Spring Boot mang lại, nó cũng mang theo rất nhiều đặc điểm ưu việt. Cùng tìm hiểu và tận dụng những chương trình này một cách hiệu quả nhé.
 
-![Crepe]([https://d3hi6wehcrq5by.cloudfront.net/itnavi-blog/2021/04/Spring-Boot-l%C3%A0-g%C3%AC-3.jpg])
+(/assets/content_image/Spring-Boot3.jpg)
+
       Spring Boot có tính bảo mật cao
       
 **Đặc điểm nổi bật của Spring Boot**
