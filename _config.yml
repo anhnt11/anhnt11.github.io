@@ -14,7 +14,8 @@ navbar-links:
 ################
 # --- Logo --- #
 ################
-<link rel="icon" href="/assets/img/logoBar.png">
+ <link rel="icon" href="/assets/img/logoBar.png" type="image/x-icon">
+
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/assets/img/91ae5ed264a0adfef4b1.jpg"
