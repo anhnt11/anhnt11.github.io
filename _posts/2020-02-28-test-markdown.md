@@ -1,78 +1,109 @@
 ---
 layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
+title: Spring Boot là gì? Bạn cần biết những gì khi học Spring Boot
 gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
 comments: true
 ---
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+Đối với những người theo đuổi công nghệ thông tin chắc hẳn đã nghe đến Spring, đây là một framework nắm vai trò quan trọng trong phát triển phần mềm, tuy nhiên chúng vẫn chứa đựng những nhược điểm nhất định. Chính vì lý do này, Spring Boot đã ra đời nhằm cải thiện những nhược điểm này và hứa hẹn mang đến nhiều những sản phẩm phần mềm hoàn hảo trong tương lai. Vậy Spring Boot là gì mà có thể đem lại nhiều giá trị tuyệt vời đến như vậy? Hãy cùng chúng tôi khám phá chi tiết về thuật ngữ này tại bài viết bên dưới nhé!
+![Crepe]([https://d3hi6wehcrq5by.cloudfront.net/itnavi-blog/2021/04/Spring-Boot-l%C3%A0-g%C3%AC-1.jpg])
 
-**Here is some bold text**
+**Spring Boot là gì?**
 
-## Here is a secondary heading
+Là một phần cực kỳ quan trọng của Spring framework, do vậy trước khi tìm hiểu Spring Boot là gì, chúng ta cần có kiến thức cơ bản về Spring framework.
 
-Here's a useless table:
+**Khái niệm về Spring Boot là gì**
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+Từ những thông tin ở trên, ta có thể khẳng định Spring Boot chính là một Java framework siêu to và khổng lồ và có nhiều khả năng hữu ích vì nó có thể giúp lập trình viên giải quyết rất nhiều vấn đề. So với framework Spring thông thường, Spring Boot tỏ ra những lợi thế vượt trội. Khi sử dụng Spring Boot, rất nhiều thứ được cải tiến hỗ trợ lập trình viên như:
 
+  -Auto config: tự động cấu hình thay lập trình viên, bạn chỉ cần viết code và tiến hành chạy hệ thống là được.
+  -Dựa trên các Annotation để tạo lập các bean thay vì XML.
+  -Server Tomcat có thể được nhúng ngay trong file JAR build ra và có thể chạy ở bất kì đâu mà java chạy được.
+Khi sử dụng Spring Boot, lập trình viên chỉ cần:
+  -Sử dụng Spring Initializr: nhập các thông tin của dự án (project), chọn thư viện (Library) rồi tải code về máy.
+  -Mở mã nguồn (source code) và bắt đầu viết code.
+  -Có thể chạy ngay trong IDE, hoặc build thành file JAR mà không cần cấu hình config cho server nữa.
+![Crepe]([https://d3hi6wehcrq5by.cloudfront.net/itnavi-blog/2021/04/Spring-Boot-l%C3%A0-g%C3%AC-2.png])
+    Spring Boot chính là một Java framework siêu to và khổng lồ và có nhiều khả năng hữu ích
 
-How about a yummy crepe?
+**Tại sao bạn nên học Spring Boot?**
 
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
+Việc ứng dụng Spring Boot giúp các lập trình viên tập trung tốt hơn đến mục tiêu viết code của mình thay vì phải lo nghĩ nhiều đến các kỹ thuật code như với Node.js.Bản thân Spring Boot chứa đựng nhiều các library bên trong, cấu trúc code cũng trở nên chuẩn mực hơn, bạn không cần phải quá bận tâm đến việc code làm sao cho thật tốt.
 
-It can also be centered!
+Do đó, bạn có nhiều thời gian hơn để tập trung vào sự logic của sản phẩm.Spring Boot là sự cải tiến tuyệt vời của Spring, cải thiện được rất nhiều khâu rườm rà đến từ Spring. Hơn thế, quá trình học hỏi và tiếp thu Spring Boot cũng trở nên dễ dàng hơn rất nhiều.
 
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
+Đừng cố giữ những quan điểm cổ hủ cho rằng muốn biết về Spring Boot trước tiên phải học Spring. Thực chất đây là điều thực sự không cần thiết, bạn hoàn toàn có thể lựa chọn học Spring Boot ngay từ đầu vì nó giúp bạn hiểu và ứng dụng các vấn đề nhanh hơn rất nhiều.
 
-Here's a code chunk:
+### Đặc điểm và tính năng của Spring Boot
 
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
+**Ưu điểm nổi bật của Spring Boot**
 
-And here is the same code with syntax highlighting:
+Những tính năng nổi bật của Spring Boot mà bạn không thể bỏ qua như:
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
+Phát triển web một cách đơn giản và nhanh chóng.
+  -Config an toàn
+  -Có thể hỗ trợ YAML
+  -Có tính quản trị cao
+  -Dễ dàng ứng dụng Spring và các sự kiện.
+  -Có thể cấu hình ở bên ngoài và tạo ra những tệp thuộc tính.
+  -Tính bảo mật cao.
+  -Ghi log
+Với những ưu điểm mà Spring Boot mang lại, nó cũng mang theo rất nhiều đặc điểm ưu việt. Cùng tìm hiểu và tận dụng những chương trình này một cách hiệu quả nhé.
 
-And here is the same code yet again but with line numbers:
+![Crepe]([https://d3hi6wehcrq5by.cloudfront.net/itnavi-blog/2021/04/Spring-Boot-l%C3%A0-g%C3%AC-3.jpg])
+      Spring Boot có tính bảo mật cao
+      
+**Đặc điểm nổi bật của Spring Boot**
 
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
+  -SpringApplication: Đây là class được dùng để khởi chạy ứng dụng từ hàm main(). Vì thế, khi khởi chạy ứng dụng, các lập trình viên chỉ cần gọi method run() là được. 
+  -Externalized Configuration: Spring Boot cho phép người dùng có thể sử dụng cấu hình (config) từ bên ngoài. Chính vì vậy mà mỗi ứng dụng được tạo ra có thể chạy được    trên nhiều môi trường khác nhau. 
+  -Profiles: Dùng để phân chia các loại cấu hình cho các môi trường khác nhau.
+  -Loggin: Sử dụng phục vụ cho toàn bộ chức năng log trong phạm vi nội bộ. Những logging này sẽ được quản lý một cách mặc định.
+Ngoài ra còn rất nhiều các tính năng tương tự khác của Spring Boot như: Developing web Applications, Working with SQL Technologies, Security, Messaging, Caching, Calling rest Services with RestTemplate/WebClient, Sending Email, Validation,…. 
 
-## Boxes
-You can add notification, warning and error boxes like this:
+### Khi học về Spring Boot cần tìm hiểu những gì?
 
-### Notification
+**Java Core**
+Trước khi học về Spring Boot, bạn cần biết về một số kiến thức cần biết của Java
+  -Java cơ bản: hàm, biến, vòng lặp,...
+  -Lập trình hướng đối tượng (OOP)
+  -Các tính năng của Java
+  -Collections API: biết cách sử dụng các collection thông dụng.
+Ngoài ra, bạn có thể tìm hiểu thêm về Stream API, Asynchronous, Multi threading, File IO.
 
-{: .box-note}
-**Note:** This is a notification box.
+![Crepe]([https://d3hi6wehcrq5by.cloudfront.net/itnavi-blog/2021/04/Spring-Boot-là-gì-4.png])
 
-### Warning
+**Package manager**
+Package manager được cài thêm để quản lý các thư viện khi code dự án Spring Boot. Bạn nên tìm hiểu cách dùng Maven và Gradle cơ bản.Nếu bạn là người mới bắt đầu không nên tìm hiểu quá sâu, chỉ cần biết cách cài đặt, xóa thư viện, chỉnh sửa thông tin của project, các build-in tasks là được. Sau này khi sử dụng nhiều thì bạn tự khắc quen thôi.
 
-{: .box-warning}
-**Warning:** This is a warning box.
+**Spring Boot**
+Cách học Spring Boot đúng đắn nhất chính là học thực hành, làm project. Nhiều thứ trong Spring Boot rất dễ, hoặc thành chuẩn mực rồi, chủ yếu là bạn đã từng đụng tới và thử áp dụng chưa thôi.Bạn nên tìm hiểu nên học Spring Boot bắt đầu từ đâu, tạo dự án Spring Boot đầu tiên như thế nào, các luồng đi trong Spring Boot, Dependency injection áp dụng vào Spring Boot như thế nào, cấu trúc một dự án Spring Boot như thế nào cho chuẩn,...
 
-### Error
+**JPA/MongoDB/SQL**
 
-{: .box-error}
-**Error:** This is an error box.
+Để tạo nên một chương trình, ứng dụng không thể thiếu được Database, do vậy các bạn cần tìm hiểu về:
+  -Cách cấu hình database trong Spring Boot
+  -Cấu trúc lớp và interface của JPA
+  -Tìm hiểu các thao tác cơ bản CRUD.
+  -Query creation
+  -Thực hiện các câu query phức tạp bằng MongoTemplate.
+  -Sắp xếp và phân trang data query được.
+  -Thực hiện aggregation
+  
+**Template engine**
+
+Template engine đảm nhiệm xử lý phần View trong ứng dụng MVC. Trong Spring Boot chúng ta sử dụng template engine để paste dữ liệu vào View và trả về một trang HTML. Những kiến thức về cách trả về trang HTML, sử dụng Thymeleaf, JSP trong Spring Boot bạn cũng nên tìm hiểu trước.
+
+**Các Tool khác**
+
+Ngoài ra, trong một dự án Spring Boot còn sử dụng các Tool khác các bạn có thể tìm hiểu về cấu hình và cách sử dụng để nâng cao hiệu suất viết code như:
+  -Cấu hình và sử dụng Swagger
+  -Thiết lập Logger cho project
+  -Lombok - viết code Java ngắn
+  -Cấu hình Spring Actuator
+  -Cấu hình Firebase
+  -Cấu hình Spring Boot devtools
+
+**Tổng kết**
+
+Spring Boot mang đến cho các lập trình viên rất nhiều những tính năng tuyệt vời. Hy vọng với những thông tin chia sẻ ở trên, các bạn đã hiểu hơn về Spring Boot là gì, có nên sử dụng Spring Boot hay không và nên tìm hiểu những kiến thức gì để vận dụng Spring Boot được tốt nhất. Nếu có bất kỳ những thắc mắc về Spring Boot hay những kiến thức liên quan đến công nghệ thông tin, đừng ngần ngại, chia sẻ ngay để được giải đáp nhé.
