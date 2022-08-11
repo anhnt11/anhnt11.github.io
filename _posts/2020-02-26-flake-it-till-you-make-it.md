@@ -5,11 +5,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Create student</title>
+    **Create student**
 </head>
 <body>
-<!--Các bạn có thể tìm hiểu thêm  phần này tại blogs: https://levunguyen.com,-->
-<!--blogs chuyên về lập trình và các kỹ năng mềm trong nghề lập trình-->
     <form th:action="@{/create}" th:method="post" th:object="${student}">
         <label>Name: </label>
         <input type="text" th:field="*{name}"/><br>
