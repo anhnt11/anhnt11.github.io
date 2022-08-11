@@ -1,19 +1,33 @@
-
-
 <html xmlns:th="http://www.thymeleaf.org">
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    **Create student**
+    <title>List student</title>
 </head>
 <body>
-    <form th:action="@{/create}" th:method="post" th:object="${student}">
-        <label>Name: </label>
-        <input type="text" th:field="*{name}"/><br>
-        <label>Date of birth: </label>
-        <input type="text" th:field="*{dateOfBirth}"/><br>
-        <input type="submit" value="Register" />
-    </form>
+<a href="/create">Create student</a>
+<p style="color: green" th:text="${message}"></p>
+
+<h3>List student</h3>
+
+<table align="center" border="1">
+    <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th>Date of birth</th>
+        <th colspan="2">Action</th>
+    </tr>
+    <th:block th:each="student, iter : ${studentList}">
+        <tr>
+            <td th:text="${iter.index + 1}"></td>
+            <td><a th:href="@{/detail(id=${student.id})}" th:text="${student.name}"></a></td>
+            <td th:text="${student.dateOfBirth}"></td>
+            <td><a th:href="@{/update(id=${student.id})}">Update</a></td>
+            <td><a th:href="@{/delete(id=${student.id})}">Delete</a></td>
+        </tr>
+    </th:block>
+</table>
+
 </body>
 </html>
