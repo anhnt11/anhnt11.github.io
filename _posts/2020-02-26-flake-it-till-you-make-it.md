@@ -7,7 +7,7 @@
     <title>List student</title>
 </head>
 <body>
-<a href="/_posts/create.md">Create student</a>
+<a href="/_posts/create.html">Create student</a>
 <p style="color: green" th:text="${message}"></p>
 
 <h3>List student</h3>
